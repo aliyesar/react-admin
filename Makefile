@@ -66,7 +66,6 @@ build-react-admin:
 	@rm -rf ./packages/react-admin/docs
 	@cd ./packages/react-admin && yarn build
 	@mkdir packages/react-admin/docs
-	@cp docs/*.md packages/react-admin/docs
 
 build-ra-data-fakerest:
 	@echo "Transpiling ra-data-fakerest files...";
